@@ -1,0 +1,44 @@
+{
+    "name": "HACK MACS Bot",
+    "description": "الحصول علي جلسه دخول بسهوله",
+    "logo": "https://telegra.ph/file/e4b35c210743a74277fef.jpg",
+    "keywords": [
+        "TELETHON",
+        "MR_MACS",
+        "Telegram Bot",
+        "piro bolte",
+        "MACS37"
+    ],
+    "website": "",
+    "success_url": "https://telegram.dog/MACS37",
+    "env": {
+        "BOT_TOKEN": {
+            "description": "You Telegram Bot Token from @BotFather",
+            "value": ""
+        },
+        "API_HASH": {
+            "description": "Your API Hash from my.telegram.org",
+            "value": ""
+        },
+        "YOUR_NAME": {
+            "description": "Your Name Plz",
+            "value": ""
+        },
+        "APP_ID": {
+            "description": "Your API ID from my.telegram.org",
+            "value": ""
+        }
+    },
+    "addons": [],
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ],
+    "formation": {
+        "worker": {
+            "quantity": 1,
+            "size": "free"
+        }
+    }
+}
