@@ -1,1 +1,1 @@
-worker: python3 hack.py
+web: python3 hack.py
